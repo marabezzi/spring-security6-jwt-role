@@ -8,7 +8,7 @@ atom:
   app:
    jwtExpirationMs: 60000
    jwtRefreshExpirationMs: 120000
-   jwtSecret: 1658
+   jwtSecret: 867978979878978978978978978978978978978978978977654345678976545678
    jwtCookieName: bezkoder-jwt
    jwtRefreshCookieName: bezkoder-jwt-refresh
  
