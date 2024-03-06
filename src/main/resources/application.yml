@@ -5,10 +5,12 @@ cors:
  originPatterns: http://localhost:4200,http://localhost:8888
   
 atom:
- app:
-  jwtExpirationMs: 60000
-  jwtRefreshExpirationMs: 120000
-  secretString: ChaveSecreta1234567890
+  app:
+   jwtExpirationMs: 60000
+   jwtRefreshExpirationMs: 120000
+   jwtSecret: 1658
+   jwtCookieName: bezkoder-jwt
+   jwtRefreshCookieName: bezkoder-jwt-refresh
  
 spring:
   datasource:
